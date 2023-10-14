@@ -1,4 +1,4 @@
 // code
 let str = "zzzzyzz";
 
-str.includes('y') === true ? console.log('нашёл') : console.log('заблудился')
+str.includes('y') === true ? console.log('нашел') : console.log('заблудился')
