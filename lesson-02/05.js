@@ -7,5 +7,5 @@ let passport = {
 let newPassport = Object.assign({}, passport)
 newPassport.name = 'Ivan';
 
-console.log(passport);
-console.log(newPassport);
+console.log(passport.name);
+console.log(newPassport.name);
