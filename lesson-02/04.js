@@ -1,0 +1,10 @@
+// code
+const giveMeRightCondition = (value1, value2, maximum) => {
+   if (value1 === value2 && value <= maximum) {
+      console.log('Success!');
+   } else {
+      console.log('Something wrong!');
+   }
+}
+
+giveMeRightCondition(250, 100, 200)
