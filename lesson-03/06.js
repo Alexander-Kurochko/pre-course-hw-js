@@ -32,6 +32,6 @@ const users3 = [
    },
 ];
 
-const userIsMarrie = users3.map(el => ({ ...el, isMarrie: true }))
+const userIsMarried = users3.map(el => ({ ...el, isMarried: true }))
 
-console.log(userIsMarrie)
+console.log(userIsMarried)
